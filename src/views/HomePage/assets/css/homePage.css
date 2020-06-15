@@ -1,0 +1,65 @@
+#components-layout-demo-custom-trigger {
+  height: 100vh;
+}
+#components-layout-demo-custom-trigger .logo {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+}
+#components-layout-demo-custom-trigger .logo img {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-left: 24px;
+}
+#components-layout-demo-custom-trigger .logo span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 11px;
+}
+#components-layout-demo-custom-trigger .myHeader {
+  justify-content: space-between;
+}
+#components-layout-demo-custom-trigger .userInfo {
+  margin-right: 25px;
+  line-height: 64px;
+}
+#components-layout-demo-custom-trigger .userInfo .screen {
+  margin-right: 20px;
+  cursor: pointer;
+}
+#components-layout-demo-custom-trigger .userInfo img {
+  display: inline-block;
+  width: 34px;
+  height: 32px;
+  margin-right: 10px;
+}
+#components-layout-demo-custom-trigger .userInfo span {
+  font-size: 14px;
+  color: #000;
+  opacity: 0.45;
+}
+#components-layout-demo-custom-trigger .userInfo .drop {
+  cursor: pointer;
+}
+#components-layout-demo-custom-trigger .myContent {
+  height: 100%;
+  overflow-y: scroll;
+}
+.marginBottom {
+  margin-bottom: 20px;
+}
+.red {
+  color: red;
+}
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}

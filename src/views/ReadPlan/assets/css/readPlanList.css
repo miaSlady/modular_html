@@ -1,0 +1,27 @@
+.searchBox {
+  padding: 30px;
+  background: #fff;
+  margin: 25px;
+}
+.table {
+  background: #fff;
+  margin: 30px 25px;
+  min-height: 500px;
+  padding: 1px;
+}
+.table .marginRight {
+  margin-right: 10px;
+}
+.modal .label {
+  display: inline-block;
+  width: 80px;
+}
+.modal .marginBottom {
+  margin-bottom: 20px;
+}
+.modal .red {
+  color: red;
+}
+.modal .textareaBox {
+  margin: 10px 20px;
+}
