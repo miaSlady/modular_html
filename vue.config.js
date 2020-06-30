@@ -31,12 +31,13 @@ module.exports = {
 	},
   devServer: {
     port: 1818, // 端口号
-    host: '172.16.0.128',
-    // host: '172.0.0.1',
+    // host: getIPAdress(),
+    // host: '172.16.0.128',
+    host: 'localhost',
     https: false, // https:{type:Boolean}
-    open: true, //配置自动启动浏览器
-    compress: true,//配置热更新
-    hot:true,
+    open: false, //配置自动启动浏览器
+    hot:true,//配置热更新
+    compress: true,
     // proxy: {        //跨域代理
     //   '/api': {
     //     target: 'http://127.0.0.1:3000/',        //baseURL
